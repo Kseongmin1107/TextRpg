@@ -44,7 +44,7 @@ namespace TxtRpg
         public string Name;
         public string Job;
 
-        public float BaseAttack = 10;
+        public float BaseAttack = 10; // float 타입 변수에 int 값을 대입하는건 자동변환
         public float BaseDefense = 5;
         public int HP = 100;
         public int Gold = 800;
